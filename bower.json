@@ -1,0 +1,20 @@
+{
+  "name": "auth_sb",
+  "version": "0.0.0",
+  "directory": "client/js",
+  "authors": [
+    "Robert Wilkinson <wilkinson.robert.a@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.2"
+  }
+}

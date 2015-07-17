@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Auth SB</title>
+  <script src="./js/bower_components/jquery/dist/jquery.js"></script>
+  <script src="js/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="js/bower_components/angular/angular.js"></script>
+  <script src="js/app/main.js"></script>
+
+  <link rel="stylesheet" href="js/bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+  <div class="container" ng-app="loginApp">
+   <div ng-controller="SignUpController as signupCtrl">
+     <form class="form" ng-submit="signupCtrl.register">
+
+       <button type="submit" class="btn btn-default">Sign Up</button>
+    </form>
+   </div>
+  </div>
+  
+</body>
+</html>
